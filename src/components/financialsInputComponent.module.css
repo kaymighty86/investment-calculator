@@ -1,0 +1,78 @@
+.formContainer{
+    background: linear-gradient(180deg, rgb(9, 108, 93), rgb(9, 136, 96));
+    border-radius: 0.2rem;
+}
+
+.allInputsWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inputContainer{
+    margin: 0.5rem 0.7rem;
+    width: 100%;
+    max-width: 15rem;
+}
+
+.inputContainer label{
+    font-size: x-small;
+    color: rgb(113, 208, 181);
+    text-transform: uppercase;
+}
+
+.inputContainer input{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.3rem;
+    margin-top: 0.15rem;
+    font-size: small;
+    color: rgb(200, 237, 226);
+    border: 2px solid rgb(100, 184, 160);
+    border-radius: 0.3rem;
+    background-color: transparent;
+}
+
+.inputContainer.invalidInput input{
+    border-color: rgb(253, 122, 133);
+    color: rgb(253, 122, 133);
+}
+
+.buttonsContainer{
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.buttonsContainer input{
+    padding: 0.5rem 1.2rem;
+    margin: 0.5rem 1rem;
+    font-size: small;
+    color: white;
+    border-radius: 0.2rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.buttonsContainer input[type="submit"]{
+    background: linear-gradient(0deg, rgb(5, 57, 52),rgb(10, 86, 83));
+}
+
+.buttonsContainer input:hover{
+    outline: 1px solid rgba(200, 237, 226,0.5);
+}
+
+.buttonsContainer input[type="submit"]:active{
+    background: linear-gradient(180deg, rgb(5, 57, 52),rgb(10, 86, 83) 80%);
+}
+
+@media (max-width: 60rem) {
+    .inputContainer{
+        max-width: none;
+    }
+}

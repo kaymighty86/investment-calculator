@@ -1,0 +1,7 @@
+.sectionStyle{
+    width: 100%;
+    max-width: 36rem;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    box-sizing: border-box;
+}

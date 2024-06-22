@@ -1,0 +1,18 @@
+table{
+    width: 100%;
+    text-align: right;
+}
+
+thead{
+    color: rgb(86, 178, 143);
+    font-size: small;
+}
+
+tbody{
+    color: rgb(201, 208, 208);
+    font-size: small;
+}
+
+td{
+    padding: 0.4rem 0px;
+}
